@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @layer components{
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  
+  html{
+    scroll-behavior: smooth
+  }
+
+  .btnNav .imgNav {
+    @apply transition-transform duration-300 ease-in-out
+  }
+  
+  .btnNav p {
+    @apply transition-all duration-300 ease-in-out
+  }
+
+  .btnNav:hover .imgNav {
+    @apply
+     transition-all scale-75 ;
+  }
+
+  .btnNav:hover p{
+    @apply transition-all opacity-100 -translate-y-1
+  }
+
+  .btnNav:focus .imgNav {
+    @apply
+     transition-all scale-75 ;
+  }
+
+  .btnNav:focus p{
+    @apply transition-all opacity-100 -translate-y-1
+  }
+} 
+
