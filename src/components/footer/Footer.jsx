@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <footer className='bg-blackBrand100 flex flex-col items-center justify-center py-10 gap-8'>
-      <h2 className='text-greyBrand100 text-[40px] font-medium'>{info.name}</h2>
+      <h2 className='text-greyBrand100 text-3xl md:text-[40px] font-medium'>{info.name}</h2>
       <div className='flex flex-col gap-10 justify-center items-center w-full'>
         <div className='flex flex-col gap-2 items-center'>
           <p className='text-greyBrand600 text-lg'>{info.followTitle}</p>
@@ -31,9 +31,27 @@ const Footer = () => {
         </div>
         <div className='flex flex-col items-center justify-center'>
           <p className='text-greyBrand600 text-lg'>{info.contactTitle}</p>
-          <p className='text-white text-[36px]'>{info.email}</p>
+          <p className='text-white text-3xl md:text-[36px]'>{info.email}</p>
         </div>
-        <p className='text-greyBrand600 flex gap-2'>{info.copyrigthYear} {thisYear}. {info.rigths}. | {info.done} <img src={love} alt={info.love} /> {info.done2} <a href='#Home' className='text-blue-300'>{info.done3}</a></p>
+        <div className='text-greyBrand600 text-sm md:text-base flex   md:gap-2 items-center flex-col md:flex-row '>
+          <p className=''>
+            {info.copyrigthYear} {thisYear}. {info.rigths}.
+            <span className='hidden md:inline'> | </span>
+          </p>
+          <div className='flex gap-2 items-end'>
+            <p>
+              {info.done}
+            </p>
+            <img src={love} alt={info.love} />
+            <p>
+              {info.done2}
+            </p>
+            <a href='#Home' className='text-blue-300'>
+              {info.done3}
+            </a>
+          </div>
+        </div>
+
       </div>
     </footer>
   )

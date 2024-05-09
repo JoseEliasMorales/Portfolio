@@ -17,5 +17,7 @@ import concept from './concept.png'
 import instagram from './instagram.svg'
 import linkedin from './linkedin.svg'
 import love from './love.svg'
+import menu from './menu.svg'
+import close from './close.svg'
 
-export { love, home, file, briefcase, me, message, user, bg, javaScript, react, html, css, tailwind, uxf, pocket, rally, concept, instagram, linkedin }
+export { love, home, file, briefcase, me, message, user, bg, javaScript, react, html, css, tailwind, uxf, pocket, rally, concept, instagram, linkedin, menu, close }

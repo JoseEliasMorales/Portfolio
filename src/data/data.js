@@ -16,7 +16,7 @@ export const EsData = {
   about: {
     name: 'Jose Elias Morales',
     job: 'Web Developer',
-    description: 'Soy  un apasionado desarrollador web con una historia laboral sólida y emocionante. Durante más de una década, trabajé en el sector privado de la logística, donde adquirí habilidades en resolución de problemas, gestión de recursos humanos y colaboración interempresarial. En 2023, decidí seguir mi pasión por la programación y me gradué como Desarrollador Front-End, manteniéndome siempre entre los mejores alumnos de mi clase. \n Mi objetivo profesional es consolidarme como desarrollador web, aprovechando mi iniciativa y responsabilidad para enfrentar nuevos desafíos con confianza y determinación. \n Además de mi carrera, disfruto del baloncesto, las series y la lectura, lo que me ayuda a mantener un equilibrio entre el trabajo y el ocio. Si estás buscando a alguien con iniciativa, responsabilidad y un enfoque lógico para resolver problemas, ¡no dudes en contactarme!',
+    description: 'Soy  un apasionado desarrollador web con una historia laboral sólida y emocionante. Durante más de una década, trabajé en el sector privado de la logística, donde adquirí habilidades en resolución de problemas, gestión de recursos humanos y colaboración interempresarial. En 2023, decidí seguir mi pasión por la programación y me gradué como Desarrollador Front-End, manteniéndome siempre entre los mejores alumnos de mi clase.  \nMi objetivo profesional es consolidarme como desarrollador web, aprovechando mi iniciativa y responsabilidad para enfrentar nuevos desafíos con confianza y determinación. \nAdemás de mi carrera, disfruto del baloncesto, las series y la lectura, lo que me ayuda a mantener un equilibrio entre el trabajo y el ocio. Si estás buscando a alguien con iniciativa, responsabilidad y un enfoque lógico para resolver problemas, ¡no dudes en contactarme!',
     skills: {
       title: 'My Skills',
       skills: [
@@ -24,7 +24,7 @@ export const EsData = {
         { name: 'React', img: react },
         { name: 'HTML', img: html },
         { name: 'CSS3', img: css },
-        { name: 'Taildwind', img: tailwind }
+        { name: 'Tailwindcss', img: tailwind }
       ]
     }
   },

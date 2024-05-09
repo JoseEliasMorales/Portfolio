@@ -6,12 +6,12 @@ import Contact from '../components/contact/Contact'
 
 const Body = () => {
   return (
-    <>
+    <article className='xl:ml-[70px] '>
       <Home />
       <About />
       <Portfolio />
       <Contact />
-    </>
+    </article>
   )
 }
 

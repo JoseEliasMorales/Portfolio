@@ -25,6 +25,19 @@ export default {
       },
       fontFamily: {
         Quicksand: ['Quicksand', 'sans-serif']
+      },
+      keyframes: {
+        dropdown: {
+          '0%': {
+            height: '0'
+          },
+          '100%': {
+            height: 'screen'
+          }
+        }
+      },
+      animation: {
+        dropdown: 'dropdown 3s ease-in-out '
       }
 
     }

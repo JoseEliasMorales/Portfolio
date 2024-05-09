@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 const Project = () => {
   const info = EsData.portfolio.projects
   return (
-    <div className=' w-[1140px] gap-8'>
-      <div className='grid grid-cols-3 gap-8'>
+    <div className=' xl:w-[1140px] gap-8'>
+      <div className='flex flex-col px-4 xl:px-0 md:grid md:grid-cols-2 xl:grid-cols-3 gap-8'>
 
         {info.map((data, index) => (
           <Link to={data.url} target='_blank' key={index} className=''>

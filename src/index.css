@@ -37,5 +37,9 @@
   .btnNav:focus p{
     @apply transition-all opacity-100 -translate-y-1
   }
+
+  .menuDrop{
+    @apply animate-dropdown transition-all duration-1000 ease-in-out
+  }
 } 
 
